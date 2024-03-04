@@ -1,0 +1,11 @@
+commit 5da9012f5e7d3273419efe84ab04631c4b76168c
+Author: Kenph-Ansonny <ansonny54@gmail.com>
+Date:   Mon Mar 4 11:02:10 2024 -0600
+
+    Examen Practico Parcial I
+
+commit c23525a8fdbd5fc7691fa492519c64f4148183f3
+Author: Kenph-Ansonny <123000188+Kenph-Ansonny@users.noreply.github.com>
+Date:   Mon Mar 4 09:51:44 2024 -0600
+
+    Initial commit
