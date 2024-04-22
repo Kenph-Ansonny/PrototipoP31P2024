@@ -102,19 +102,13 @@ public class Ventana extends javax.swing.JFrame {
                     .addGroup(layout.createSequentialGroup()
                         .addGap(46, 46, 46)
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(layout.createSequentialGroup()
-                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addComponent(CalcularIngresoMayor)
-                                    .addComponent(IngresarNombresEmpresas)
-                                    .addComponent(CalcularIngresoMenor))
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                            .addGroup(layout.createSequentialGroup()
-                                .addComponent(GenerarIngresos)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))))
+                            .addComponent(CalcularIngresoMayor)
+                            .addComponent(IngresarNombresEmpresas)
+                            .addComponent(CalcularIngresoMenor)
+                            .addComponent(GenerarIngresos)))
                     .addGroup(layout.createSequentialGroup()
                         .addGap(64, 64, 64)
-                        .addComponent(jLabel1)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
+                        .addComponent(jLabel1)))
                 .addGap(28, 28, 28)
                 .addComponent(desplegarCamaraIndustria)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
@@ -255,6 +249,7 @@ public class Ventana extends javax.swing.JFrame {
                 new Ventana().setVisible(true);
             }
         });
+         int gitstatus = 111;
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
